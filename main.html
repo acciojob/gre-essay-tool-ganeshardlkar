@@ -8,6 +8,17 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<textarea 
+        name="" 
+        id="evaluatedText" 
+        cols="30" 
+        rows="10" 
+        onkeyup="countChars('evaluatedText','letterCount');" 
+        onkeydown="countChars('evaluatedText','letterCount');" 
+        onmouseout="countChars('evaluatedText','letterCount');"
+    ></textarea>
+
+    <h3 id="letterCount"></h3>
     <script type="text/javascript" src="./script.js">
 </script>
 
